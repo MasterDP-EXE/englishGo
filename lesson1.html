@@ -4,12 +4,14 @@
     <title>Lesson 1: I am</title>
     <link rel="stylesheet" href="styles.css">
     <script type="text/javascript" src="script.js"></script>
+    
 </head>
-    <body>
+    <body onload="clean();">
         <header>
             <!--Insert EnglishGo Banner-->
             <!--Navigation Bar-->
-			<img src="images/Logo-01.png" class="logo">
+            <img id="banner" src="images/banner.png" alt="banner">
+			<img src="images/Kart.png" class="logo">
             <div class="topnav"> 
                 <a href="index.html">HOME</a>
                 <a href="lesson1.html">LESSON 1</a>
@@ -29,6 +31,7 @@
         <!--Image Gallery-->
             
             <div id="body">
+                
                 <div class="gallery">
                     <img class="body-parts" onclick="elbow.play();" src="images/elbow.jpg" alt = "elbow"/> 
                     <div class="desc">Elbow</div>
