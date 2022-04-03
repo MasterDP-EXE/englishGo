@@ -23,7 +23,7 @@ body{
 
 .logo{
 	width: 400px;
-	position: absolute;
+	position: fixed;
 	left: 70%;
 	bottom: 55%;
     transform: scaleX(-1);

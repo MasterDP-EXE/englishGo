@@ -3,6 +3,8 @@ function clean(){
     document.getElementById("emotion").style.display = "none";
     document.getElementById("colors").style.display = "none";
 }
+
+
 function openTopic(evt, topic){
     var i, tabcontent, tablinks;
     
