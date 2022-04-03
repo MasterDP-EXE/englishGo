@@ -21,15 +21,6 @@ body{
 
 /*NavBar styles*/
 
-.logo{
-	width: 10%;
-    float:right;
-	position: absolute;
-	left: 70%;
-	bottom: 78%;
-    transform: scaleX(-1);
-	z-index: 1;
-}
 
 .topnav {
   background-color: #2C2F36;
