@@ -22,7 +22,8 @@ body{
 /*NavBar styles*/
 
 .logo{
-	width: 400px;
+	width: 10%;
+    float:right;
 	position: absolute;
 	left: 70%;
 	bottom: 78%;
