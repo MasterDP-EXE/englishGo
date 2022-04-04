@@ -2,6 +2,7 @@
 function clean(){
     document.getElementById("emotion").style.display = "none";
     document.getElementById("colors").style.display = "none";
+    document.getElementById("song").style.display = "none";
 }
 
 
@@ -11,6 +12,7 @@ function openTopic(evt, topic){
             document.getElementById("body").style.display = "none";
             document.getElementById("emotion").style.display = "none";
             document.getElementById("colors").style.display = "none";
+            document.getElementById("song").style.display = "none";
 
     tablinks = document.getElementsByClassName("tablinks");
   for (i = 0; i < tablinks.length; i++) {

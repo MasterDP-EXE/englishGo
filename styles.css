@@ -101,6 +101,10 @@ div.gallery{
     float:left;
 }
 
+div.video{
+    float:left;
+}
+
 div.desc{
     text-align: center;
     font-size: 40px;
@@ -111,7 +115,7 @@ div.desc{
 	box-shadow: 50px;
 }
 
-#body, #emotion, #colors{
+#body, #emotion, #colors, #song{
     float:right;
     width:70%;
     margin: 18px 0 0 0;
